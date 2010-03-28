@@ -1,0 +1,50 @@
+ -
+    location: c:/my_apps/demo/hello_world
+    name: hello
+    categories:
+     - games
+     - util
+    platforms:
+      - ruby
+      - java
+
+ -
+    location: c:/my_apps/games/the_blips
+    name: blip
+    category: 
+      - games
+      - util
+    platforms:
+      - ruby
+      - java
+    runtype: 
+      - native
+      - browser                
+    environment: 
+      - cli
+      - desktop
+      - mobile
+      - other              
+    os: 
+      - mobile
+      - android
+      - iphone
+      - desktop
+      - mac-osx
+      - unix
+      - windows                  
+
+    maturity:
+      - incubation
+      - young
+      - mature            
+    
+    origin: 
+      - mine
+      - foreign
+      - forked                
+    
+    use: 
+    - fun
+    - professional
+    - other              
