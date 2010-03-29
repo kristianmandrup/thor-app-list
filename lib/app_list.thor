@@ -1,5 +1,6 @@
 require 'thor/group'
 require 'yaml'
+require 'adm'
 
 class AppList < Thor::Group
   include Thor::Actions

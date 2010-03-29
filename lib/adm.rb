@@ -1,3 +1,9 @@
+module AdmEntries
+  def entries
+    self.collect{|e| e.to_s}
+  end
+end
+
 class AdmEntry
   attr_accessor :name, :location, :categories, :platforms, :runtype, :environment, :os, :maturity, :origin, :use 
   
@@ -73,7 +79,7 @@ class AdmEntry
   end 
   
   def to_s
-    puts "name: #{name}, location: #{location}"
+    "name: #{name}, location: #{location}"
   end
   
 protected
